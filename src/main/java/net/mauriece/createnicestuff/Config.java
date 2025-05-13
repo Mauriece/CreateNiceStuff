@@ -1,4 +1,4 @@
-package net.wassup366.createnicestuff;
+package net.mauriece.createnicestuff;
 
 import java.util.List;
 import java.util.Set;
