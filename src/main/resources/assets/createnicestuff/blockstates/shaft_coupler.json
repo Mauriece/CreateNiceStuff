@@ -1,7 +1,10 @@
 {
   "variants": {
     "": {
-      "model": "createnicestuff:block/shaft_coupler"
+      "model": "createnicestuff:block/shaft_coupler",
+      "axis=x": { "model": "createnicestuff:block/shaft_coupler" },
+      "axis=y": { "model": "createnicestuff:block/shaft_coupler" },
+      "axis=z": { "model": "createnicestuff:block/shaft_coupler" }
     }
   }
 }
