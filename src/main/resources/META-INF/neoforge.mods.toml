@@ -1,0 +1,37 @@
+modLoader = "javafml"
+loaderVersion = "[2,)" # Requires JavaFML 2.0 or newer
+license = "MIT"
+
+[[mods]]
+modId = "createnicestuff"
+version = "1.0.0"
+displayName = "Create: Nice Stuff"
+authors = "Mauriece"
+description = "Adds nice stuff to Create"
+
+displayTest = "IGNORE_ALL_VERSION" # ✅ Ensures it's safe to load on dedicated servers
+
+# Optional mixins configuration (only if you're using mixins)
+
+
+# Required dependencies
+[[dependencies.createnicestuff]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.133,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.createnicestuff]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.createnicestuff]]
+modId = "create"
+type = "required"
+versionRange = "[0.6.0.4,)"
+ordering = "NONE"
+side = "BOTH"

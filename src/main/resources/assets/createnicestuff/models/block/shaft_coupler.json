@@ -1,11 +1,11 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "createnicestuff:block/chain_drive/andesite_casing",
-		"1": "createnicestuff:block/chain_drive/axis_top",
-		"2": "createnicestuff:block/chain_drive/axis",
-		"3": "createnicestuff:block/chain_drive/gearbox",
-		"particle": "createnicestuff:block/chain_drive/andesite_casing"
+		"0": "createnicestuff:block/shaft_coupler/andesite_casing",
+		"1": "createnicestuff:block/shaft_coupler/axis_top",
+		"2": "createnicestuff:block/shaft_coupler/axis",
+		"3": "createnicestuff:block/shaft_coupler/gearbox",
+		"particle": "createnicestuff:block/shaft_coupler/andesite_casing"
 	},
 	"elements": [
 		{
