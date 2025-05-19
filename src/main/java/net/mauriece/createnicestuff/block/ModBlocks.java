@@ -1,6 +1,8 @@
 package net.mauriece.createnicestuff.block;
 
 import net.mauriece.createnicestuff.CreateNiceStuff;
+import net.mauriece.createnicestuff.content.kinetics.shaftcoupler.ShaftCouplerBlock;
+
 import net.mauriece.createnicestuff.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -18,11 +20,11 @@ public class ModBlocks {
 
     //Blocks
     public static final DeferredBlock<Block> SHAFT_COUPLER = registerBlock("shaft_coupler",
-            () -> new Block(Block.Properties.of()
-            .strength(1.4f)
-            .requiresCorrectToolForDrops()
-            .sound(SoundType.WOOD)
-    ));
+            () -> new ShaftCouplerBlock(Block.Properties.of()
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.WOOD)
+            ));
 
 
 
