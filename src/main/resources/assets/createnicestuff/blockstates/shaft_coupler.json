@@ -1,10 +1,10 @@
 {
   "variants": {
-    "": {
-      "model": "createnicestuff:block/shaft_coupler",
-      "axis=x": { "model": "createnicestuff:block/shaft_coupler" },
-      "axis=y": { "model": "createnicestuff:block/shaft_coupler" },
-      "axis=z": { "model": "createnicestuff:block/shaft_coupler" }
-    }
+    "axis=x,facing=east":  { "model": "createnicestuff:block/shaft_coupler", "y": 270 },
+    "axis=x,facing=west":  { "model": "createnicestuff:block/shaft_coupler", "y": 90 },
+    "axis=y,facing=up":    { "model": "createnicestuff:block/shaft_coupler", "x": 90 },
+    "axis=y,facing=down":  { "model": "createnicestuff:block/shaft_coupler", "x": 270 },
+    "axis=z,facing=north": { "model": "createnicestuff:block/shaft_coupler", "y": 180 },
+    "axis=z,facing=south": { "model": "createnicestuff:block/shaft_coupler", "y": 0}
   }
 }

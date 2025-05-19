@@ -1,5 +1,6 @@
 package net.mauriece.createnicestuff.block;
 
+import com.simibubi.create.content.kinetics.simpleRelays.ShaftBlock;
 import net.mauriece.createnicestuff.CreateNiceStuff;
 import net.mauriece.createnicestuff.content.kinetics.shaftcoupler.ShaftCouplerBlock;
 
@@ -19,13 +20,18 @@ public class ModBlocks {
             DeferredRegister.createBlocks(CreateNiceStuff.MOD_ID);
 
     //Blocks
-    public static final DeferredBlock<Block> SHAFT_COUPLER = registerBlock("shaft_coupler",
+    public static final DeferredBlock<ShaftCouplerBlock> SHAFT_COUPLER = registerBlock("shaft_coupler",
             () -> new ShaftCouplerBlock(Block.Properties.of()
                     .strength(1.4f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.WOOD)
             ));
-
+    public static final DeferredBlock<Block> TEST_SHAFT = registerBlock("test_shaft",
+            () -> new ShaftBlock(Block.Properties.of()
+                    .strength(1.4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.WOOD)
+            ));
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
